@@ -1,0 +1,25 @@
+Testing the input circuit
+trying to reach an output treshold of 1.65V (HIGH)
+
+input at 1.88V gives me a logic high
+
+3v on input outputs the full 3.2v
+0.001A 0.003W
+
+5V on input
+0.003A 0.015W 29C on resistor
+
+12V on input
+0.01A 0.12W 48.1C on resistor
+
+24V on input
+0.022A 0.528W 105C on resistor
+
+Resistor seems to be good to 155C - but would burn to the touch at that temp
+
+PC817 absolute maximum current of 50mA is well respected
+1N4148 continuous maximum current of 200mA is well respected
+
+
+NOTE: would like to test 2kR to drop the temp on the input resistor - especially if it is in touch range - would like to aim for 45C or under as per NASA standards:
+https://ntrs.nasa.gov/api/citations/20100020960/downloads/20100020960.pdf
