@@ -6,8 +6,13 @@ The Open Robotics Platform (placeholder name) is a project that has the goal of 
 The ORP project will allow users to set-up simple input stages to accept wide ranges of input types and voltages and have them act upon wide ranges of output types and voltages. Furthermore, functionality will be expanded with simple, inexpensive add-on modules.
 
 ### What It Is RIGHT NOW
-The ORP project is currently in the planning phase, nothing is in any state of working, this is ideation for now - stay tuned!
+The ORP project currently has a working, fleshed out input stage that includes:
+- Reverse polarity protection
+- 1W of dissipation potential allowing a wide input range
+- optoisolation
+- hardware debouncing
 
+This is very much a WIP - stay tuned!
 ---
 
 ## Why does this thing exist?
